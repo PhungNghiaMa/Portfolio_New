@@ -11,7 +11,7 @@ import Contacts from "../pages/Contacts.jsx";
 
 render(
   () => (
-    <Router root={App}>
+    <Router root={App} base="/Portfolio_New/">
       <Route path="/" component={Introduction} />
       <Route path="/projects" component={Projects} />
       <Route path="/contacts" component={Contacts} />
