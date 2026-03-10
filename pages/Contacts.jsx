@@ -1,5 +1,5 @@
 import "../src/App.css";
-
+import "virtual:uno.css";
 const Contacts = () => {
   const contactInfo = {
     phone: "[+84] 0934153439",
