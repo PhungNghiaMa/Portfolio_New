@@ -4,7 +4,7 @@ import "./App.css";
 function App(props) {
   return (
     // Changed: Added h-screen, snap-y, and snap-mandatory
-    <div class="w-full h-full  text-gray-900 font-sans overflow-y-auto overflow-x-clip snap-y snap-mandatory scroll-smooth">
+    <div class="w-full h-full text-gray-900 font-zilla overflow-y-auto overflow-x-clip snap-y snap-mandatory scroll-smooth">
       {/* Header Section */}
       {/* Note: In a full-page snap layout, you typically want the header fixed or 
           inside the first section so it doesn't "float" awkwardly between snaps */}
@@ -24,7 +24,7 @@ function App(props) {
           <div class="w-full -mt-1 md:hidden">
             <hr class="w-full h-0 border border-gray-400"></hr>
           </div>
-          <div class="w-1/2 flex text-xs md:text-base md:text-xs  justify-center items-center text-sm font-bold uppercase tracking-wide">
+          <div class="w-1/2 flex text-xs md:text-base md:text-xs  justify-center items-center text-sm font-semibold uppercase tracking-wide">
             Intern Fullstack
           </div>
         </div>

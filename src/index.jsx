@@ -3,11 +3,12 @@ import { render } from "solid-js/web";
 import "./index.css";
 import App from "./App.jsx";
 import "virtual:uno.css";
-const root = document.getElementById("root");
 import Introduction from "../pages/Introduction.jsx";
 import { Router, Route } from "@solidjs/router";
 import Projects from "../pages/Project.jsx";
 import Contacts from "../pages/Contacts.jsx";
+
+const root = document.getElementById("root");
 
 render(
   () => (

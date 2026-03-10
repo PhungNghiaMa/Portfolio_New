@@ -1,5 +1,4 @@
 import "../src/App.css";
-import "virtual:uno.css";
 function Introduction() {
   return (
     /* md:grid-cols-2: Back to normal 2-column grid on desktop

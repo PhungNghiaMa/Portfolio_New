@@ -1,5 +1,4 @@
 import "../src/App.css";
-import "virtual:uno.css";
 import { createSignal } from "solid-js";
 // 1. PROJECT DATA
 const projectsData = [
