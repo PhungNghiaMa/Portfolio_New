@@ -1,0 +1,23 @@
+#root {
+  width: 100dvw;
+  height: 100dvh;
+  font-family: 'Zilla Slab', serif;
+  background-color: rgb(234, 231, 231);
+}
+
+.GeneralContainer{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  scrollbar-width: none;
+  font-family: "Zilla Slab", serif;
+}
+
+.Container {
+  height: 100%;
+}
+
+* {
+  font-family: 'Zilla Slab', serif;
+}
+
